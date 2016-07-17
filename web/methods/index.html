@@ -1,0 +1,35 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue.js and Drupal</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>Vue.js Methods</h1>
+      </div>
+    </div>
+    
+    <div class="row" id="app">
+      <div class="medium-6 column">
+        <p>
+          <button class="button" v-on:click="add()">Add</button>
+        </p>
+      </div>
+      <div class="medium-6 column">
+        <p>
+          Count: {{ count }}
+        </p>
+      </div>
+    </div>
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/foundation.js"></script>
+    <script src="/js/vue.js"></script>
+    <script src="/js/methods.js"></script>
+  </body>
+</html>
