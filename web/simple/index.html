@@ -1,0 +1,37 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue.js and Drupal</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>Vue.js</h1>
+      </div>
+    </div>
+    
+    <div class="row" id="app">
+      <div class="medium-6 column">
+        <p>
+          Message:<br>
+          <input type="text" v-model="message" autofocus>
+        </p>
+      </div>
+      <div class="medium-6 column">
+        <p>
+          Message:<br>
+          {{ message }}
+        </p>
+      </div>
+    </div>
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/foundation.js"></script>
+    <script src="/js/vue.js"></script>
+    <script src="/js/simple.js"></script>
+  </body>
+</html>
