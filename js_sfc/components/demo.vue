@@ -3,7 +3,7 @@
   <p class="red">{{ message }}</p>
 </template>
 <script>
- export default {
+  export default {
    name: "Demo",
    data() {
      return {
@@ -14,6 +14,6 @@
 </script>
 <style>
   .red {
-    color: #ee2222
+    color: #ee2222;
   };
 </style>
