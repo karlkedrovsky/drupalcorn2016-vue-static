@@ -8,7 +8,7 @@ You will need the following installed:
 
 ## Getting Started
 
-* git clone XXX
+* git clone https://github.com/karlkedrovsky/drupalcorn2016-vue-static
 * cd vue-static
 * npm install
 * gulp
